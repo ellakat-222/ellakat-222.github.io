@@ -1,33 +1,123 @@
 <!doctype html>
 <html>
-   <head> </head>
 
-   
-        <body><title> Insects </title>
-        
-            <div id="all-contents"> 
-                <nav>
-             
-                </nav>
-        
-                <main>
-                    <div class="sidebar">
-                        <h2> </h2>
-                        <p> 
+<head>
+    <title> Insects</title>
+    <style>
+        body {
+            background: rgb(167, 219, 180);
+            color: rgb(45, 45, 45);
+            padding: 10px;
+            font-family: arial;
+        }
 
-                        </p>
-      
-                    </div>
-                
-                    <div class="content">
-                      
-                    </div>
-                
-        
-                </main>
+        #all-contents {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* navigation menu */
+        nav {
+            background: rgb(215, 236, 201);
+            margin: 0 auto;
+            display: flex;
+            padding: 10px;
+        }
+
+        nav h1 {
+            display: flex;
+            align-items: center;
+            color: white;
+            flex: 1;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-image: none;
+        }
+
+        nav li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* main container area beneath menu */
+        main {
+            background: rgb(245, 238, 219);
+            display: flex;
+        }
+
+        .sidebar {
+            margin-right: 25px;
+            padding: 10px;
+        }
+
+        .sidebar img {
+            width: 200px;
+        }
+
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+
+        h2,
+        h3 {
+            margin: 0px;
+
+        }
+
+        <style>img {
+            height: 100px;
+        }
+    </style>
+    </style>
+</head>
+
+
+<body>
+    <title> Insects </title>
+
+    <div id="all-contents">
+        <nav>
+            <h1> Different types of Bugs </h1>
+
+        </nav>
+
+        <main>
+            <div class="sidebar">
+                <h2>The Pink Moth </h2>
+                <p>
+
+                </p>
+
             </div>
-        
-    
-        
-        </body>
+
+            <div class="content">
+            </div>
+            <div id="facts">
+                <h3>Fun Facts</h3>
+                <ul>
+                    <li> The moth is from North America</li>
+                    <li> It is known as the "great silk moth"</li>
+                    <li> Known for their charming and vibrant looks, the caterpillars of these pink-and-yellow creatures
+                        also have a distinct identity with the individual name 'greenstriped mapleworm'. </li>
+                </ul>
+            </div>
+
+
+        </main>
+    </div>
+    <img
+        src="data:image/jpeg;base64,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">
+
+
+</body>
+git add 
+
 </html>
