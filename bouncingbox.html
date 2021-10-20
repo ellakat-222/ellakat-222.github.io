@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+
+<head>
+
+    <style>
+        div {
+            height: 50px;
+            width: 50px;
+            background-color: rgb(235, 15, 180);
+
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="boxy"> </div>
+
+</body>
+
+
+
+
+</html>
+<script>
+    var boxy = document.getElementById("boxy")
+    var x = 0
+    setInterval(update, 50)
+    function update() {
+        boxy.style.left = x+"px"
+        x=x+1
+
+
+    }
+</script>
