@@ -4,7 +4,7 @@
 <head>
     <style>  
     img{
-        height:100px;
+        height:200px;
      }
       p {color:rgba(158, 88, 96, 0.568);}    
       body {color:#8ea8ca;}
@@ -37,13 +37,25 @@
             color: #fff;
         }
 
+        
+
     </style>
 </head>
 
 <body> 
-    <p> Hello</p>
-    my name is kathryn 
-    <img src="https://cdn.dribbble.com/users/184987/screenshots/5712822/media/070e6aab255e48868f294fb89bd1d569.png?compress=1&resize=400x300">
+    
+    <img id = "img"  src="data:image/png;base64,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">
+    <img id="upgrade" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEoWjkHkze6VQLJQfgNUApL6uRhxQA5QL8VA&usqp=CAU">
+    <div id= "score" score> </div>
 </body>
 
 </html>
+<script> 
+var score = 0
+document.getElementById("img").addEventListener("click",imageclick)
+document.getElementById("upgrade").addEventListener("click",imageclick)
+function imageclick (){
+    score = score + 1
+    document.getElementById("score").innerText = "score = "+score
+}
+</script>
