@@ -53,9 +53,16 @@
 <script> 
 var score = 0
 document.getElementById("img").addEventListener("click",imageclick)
-document.getElementById("upgrade").addEventListener("click",imageclick)
+document.getElementById("upgrade").addEventListener("click",upgradeclick)
+setInterval(multiplier,500)
 function imageclick (){
     score = score + 1
     document.getElementById("score").innerText = "score = "+score
-}
+    }
+    function upgradeclick (){ 
+        document.getElementById("upgrade").innerText = "upgrade = "+upgrade
+    }
+    function multiplier () {
+      score = score +1 
+    }
 </script>
